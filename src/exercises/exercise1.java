@@ -34,13 +34,7 @@ public class exercise1 {
 			newNode.appendToTail((int) array[i]);
 		}
 		
-		//print linked list
-		current = newNode;
-		System.out.println(current.data);
-		while(current.next != null){
-			current = current.next;
-			System.out.println(current.data);
-		}
+		newNode.print();
 
 	}
 

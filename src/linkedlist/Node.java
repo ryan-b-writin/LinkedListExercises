@@ -16,4 +16,14 @@ public class Node {
 		}
 		n.next = end;
 	}
+	
+	public void print(){
+	Node current = this;
+	System.out.println(this.data);
+	while(current.next != null){
+		current = current.next;
+		System.out.println(current.data);
+	}
+	
+	}
 }

@@ -19,13 +19,7 @@ public class exercise2 {
 		first.appendToTail(9);
 		first.appendToTail(0);
 		
-		//print linked list
-		Node current = first;
-		System.out.println(first.data);
-		while(current.next != null){
-			current = current.next;
-			System.out.println(current.data);
-		}
+		first.print();
 
 	}
 
